@@ -1,0 +1,175 @@
+body {
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+header {
+    padding: 0px 5px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#top-links {
+    display: flex;
+    justify-content: end;
+}
+
+#top-links>li {
+    display: flex;
+    list-style: none;
+
+}
+
+#top-links li a {
+    text-decoration: none;
+    font-size: 0.72em;
+    margin-left: 10px;
+    color: #5f5f5f
+}
+
+#header-row1 {
+    height: 3em;
+}
+
+#header-row2 {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+#header-row2 col {
+    display: flex;
+}
+
+#header-col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-col1-1 {
+    display: flex;
+}
+
+#header-col1-2 {
+    display: flex;
+    margin-left: 90px;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+#header-col1-2 span {
+    color: #ff6000;
+}
+
+#header-col2-search i {
+    font-size: large;
+    top: 10px;
+    left: 10px;
+}
+
+#header-col2-search input {
+    line-height: 2em;
+    border: 2px solid #919191;
+}
+
+#header-col2-search button {
+    background-color: #919191;
+    color: #fff;
+}
+
+#header-col2-search input:focus {
+    border: 2px solid #ff6000;
+    outline: 3px solid #ff6000;
+}
+#konum-dropdown{
+    display: flex;
+    justify-content: center;
+}
+
+#header-col3 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+#header-col3-geo-area {
+    display: flex;
+
+}
+
+#header-col3-geo-area .bi-geo-alt {
+    font-size: 1.7em;
+    margin: 8px;
+    color: #ff6000;
+}
+
+.geo-area-button {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+.geo-area-button p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.geo-area-button .p-renk {
+    color: #ff6000;
+    text-align: left;
+    font-size: 12px;
+}
+
+#header-col3-geo-area .bi-caret-down-fill {
+    color: #ff6000;
+    font-size: 8px;
+
+}
+
+#header-col2-search-dropdown {
+    width: fit-content;
+    border: 2px solid #ff6000;
+}
+
+#popover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(201, 199, 199);
+    border-radius: 5px;
+    padding:5px;
+    margin-left:35px;
+    box-shadow: 0 1px 1px rgb(201, 199, 199) inset, 0 0 8px rgb(201, 199, 199);
+}
+
+#popover a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+
+#popover a span {
+    font-size: 10px;
+}
+
+#popover>div>.bi-person {
+    font-size: 20px;
+}
+
+.bi-cart {
+    font-size: 25px;
+}
+
+.badge-mine {
+    left: 25px;
+    margin-top: 7px;
+    font-size: 8px;
+}
+#geo-area-out{
+    display: flex;
+    justify-content: right;
+}
