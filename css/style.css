@@ -249,12 +249,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image: url(../images/slide1.jpeg);
 }
 
 #slide-image img{
+    display: flex;
+
     border-radius: 10px;
-    object-fit: contain;
+    object-fit: cover;
+    margin:0 auto;
 }
 #slider-area{
     background-image: url(../images/format_webp.jpeg);
