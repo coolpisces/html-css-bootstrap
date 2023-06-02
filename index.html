@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>    
-    <meta charset="UTF-8"> 
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -169,7 +169,88 @@
         </div>
     </div>
 
-    <main></main>
+    <main id="slider-area" class="container-xxlg">
+        <div class="container">
+            <ul class="nav nav-pills mb-3 tab-menu" id="pills-tab" role="tablist">
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link active mx-2  tab-nav-menu" id="pills-elektronik-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-elektronik" type="button" role="tab" aria-controls="pills-elektronik"
+                        aria-selected="true">Elektronik</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-ev-yasam-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-ev-yasam" type="button" role="tab" aria-controls="pills-ev-yasam"
+                        aria-selected="false">Ev, Yaşam</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-moda-kozmetik-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-moda-kozmetik" type="button" role="tab" aria-controls="pills-moda-kozmetik"
+                        aria-selected="false">Moda ve Kozmetik</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-anne-cocuk-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-anne-cocuk" type="button" role="tab" aria-controls="pills-anne-cocuk"
+                        aria-selected="false">Anne, Çocuk</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-teknolojik-firsatlar-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-teknolojik-firsatlar" type="button" role="tab"
+                        aria-controls="pills-teknolojik-firsatlar" aria-selected="false">Teknolojik Fırsatlar</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-size-ozel-firsatlar-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-size-ozel-firsatlar" type="button" role="tab"
+                        aria-controls="pills-size-ozel-firsatlar" aria-selected="false">Size Özel Fırsatlar</button>
+                </li>
+                <li class="nav-item py-3" role="presentation">
+                    <button class="nav-link  mx-2 tab-nav-menu" id="pills-ayricaliklar-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-ayricaliklar" type="button" role="tab" aria-controls="pills-ayricaliklar"
+                        aria-selected="false">Ayrıcalıklar</button>
+                </li>
+            </ul>
+            <div class="tab-content tab-menu" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-elektronik" role="tabpanel"
+                    aria-labelledby="pills-elektronik-tab" tabindex="0">
+                    <div id="slide">
+                        <row id="slide-row" class="row justify-content-left align-items-center">
+                            <div id="slide-row-col1" class="col-4">
+                                <div style="display:flex">
+
+                                </div>
+                            </div>
+                                <div id="slide-row-col3" class="col-2">
+
+                                </div>
+                            <div id="slide-row-col2" class="col-6 position-relative">
+                                <div id="slide-image" class="position-absolute">
+                                    <img src="images/slide1.jpeg" alt="">
+                                </div>
+                            </div>
+                        </row>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-ev-yasam" role="tabpanel" 
+                aria-labelledby="pills-ev-yasam-tab"
+                    tabindex="0">2132123132132132132132</div>
+                <div class="tab-pane fade" id="pills-moda-kozmetik" role="tabpanel"
+                    aria-labelledby="pills-moda-kozmetik-tab" tabindex="0">333333333</div>
+                <div class="tab-pane fade" id="pills-anne-cocuk" role="tabpanel" 
+                aria-labelledby="pills-anne-cocuk-tab"
+                    tabindex="0">444444444</div>
+                <div class="tab-pane fade" id="pills-teknolojik-firsatlar" role="tabpanel" 
+                aria-labelledby="pills-teknolojik-firsatlar-tab"
+                    tabindex="0">5555555</div>
+                <div class="tab-pane fade" id="pills-size-ozel-firsatlar" role="tabpanel" 
+                aria-labelledby="pills-size-ozel-firsatlar-tab"
+                    tabindex="0">6666666666</div>
+                <div class="tab-pane fade" id="pills-ayricaliklar" role="tabpanel" 
+                aria-labelledby="pills-ayricaliklar-tab"
+                    tabindex="0">7777777777777</div>
+
+
+            </div>
+        </div>
+    </main>
 
     <footer></footer>
 
@@ -177,6 +258,16 @@
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl)
+        });
+
+        const triggerTabList = document.querySelectorAll('#myTab button')
+        triggerTabList.forEach(triggerEl => {
+            const tabTrigger = new bootstrap.Tab(triggerEl)
+
+            triggerEl.addEventListener('click', event => {
+                event.preventDefault()
+                tabTrigger.show()
+            })
         })
     </script>
 </body>

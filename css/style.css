@@ -219,3 +219,43 @@ header {
 .navbar-nav .nav-item a:hover{
     color: #FF6000;
 }
+
+.tab-nav-menu{
+    font-size: 14px;
+    font-weight: bold;
+}
+.tab-menu{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#slide{
+    width: 1000px;
+    height: 420px;
+    background-color: red;
+    border-radius: 10px;
+}
+#slide-row-col2, #slide-r0w-col1, #slide-row-col3{
+    display: flex;
+
+}
+
+#slide-row-col2 {
+    background-color: white;
+
+}
+#slide-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#slide-image img{
+    border-radius: 10px;
+    object-fit: contain;
+}
+#slider-area{
+    background-image: url(../images/format_webp.jpeg);
+}
