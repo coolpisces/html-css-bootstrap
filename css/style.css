@@ -249,3 +249,27 @@ header {
     background: url(../images/format_webp.jpeg) no-repeat center center;
     height: 515px
 }
+
+.carousel-ayar {
+    top: 150px;
+    left: 70px;
+    max-width: 380px;
+    text-align: left;
+}
+
+.carousel-ayar button {
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.carousel-inner img {
+    width: 650px;
+    margin: -10px 0;
+    margin-right: 18px;
+    border-radius: 5px;
+}
+
+#DealoftheDay p.h6 {
+    color: rgb(246, 109, 0) !important;
+}
