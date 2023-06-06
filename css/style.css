@@ -250,6 +250,16 @@ header {
     height: 515px
 }
 
+.nav-item button {
+    color: white;
+    border-radius: 20px !important;
+}
+
+.nav-item .active {
+    background-color: white !important;
+    color: black !important;
+}
+
 .carousel-ayar {
     top: 150px;
     left: 70px;
@@ -272,4 +282,192 @@ header {
 
 #DealoftheDay p.h6 {
     color: rgb(246, 109, 0) !important;
+}
+
+.dealoftheday-area div {
+    margin: 10px 12px;
+}
+
+.dealoftheday {
+    width: 224px;
+    height: 362px;
+    background-size: cover;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid rgb(229, 228, 228);
+}
+
+.dealoftheday:hover {
+    box-shadow: -2px -2px 10px 10px rgb(232, 231, 231);
+}
+
+.dealoftheday1 {
+    width: 240px !important;
+
+}
+
+.dealoftheday img {
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dealoftheday span {
+    color: rgb(246, 109, 0);
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+
+
+.sonraki {
+    border: 1px groove rgb(254, 254, 254) !important;
+    border-radius: 50%;
+    background-color: rgb(155, 152, 152);
+    margin-left: 150px;
+}
+
+.onceki {
+    border: 1px groove rgb(254, 254, 254) !important;
+    border-radius: 50%;
+    background-color: rgb(155, 152, 152);
+    margin-right: 150px;
+}
+
+#DealoftheDay a {
+    text-decoration: none;
+}
+
+#sfBannerColumn div {
+    display: block;
+    float: left;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.thumb {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px auto;
+
+}
+
+.thumb p {
+    padding-top: 15px;
+}
+
+#thumbnailCarousel button {
+    margin: -25px -40px 25px 10px;
+}
+
+.review {
+    margin: 2px 40px;
+    padding: 15px;
+    border: 1px groove rgb(226, 225, 225);
+    box-shadow: 5px 10px #edecec;
+    border-radius: 5px;
+}
+
+.review-star {
+    font-size: 1.7em;
+}
+
+.review1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px groove rgb(226, 225, 225);
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.review img {
+    width: 50%;
+    margin-right: 18px;
+}
+
+.review1 .bi-star {
+    color: #FF6000;
+}
+
+
+.dealoftheday-area div {
+    margin: 10px 12px;
+}
+
+.preffer {
+    width: 160px;
+    height: 362px;
+    background-size: cover;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 0.5px solid rgb(229, 228, 228);
+}
+
+.preffer img {
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.preffer-star {
+    margin-top: -12px !important;
+}
+
+#sepet:hover {
+    color: white;
+    background-color: #923c07;
+    padding: 2px 15px auto;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+#sepet {
+    color: white;
+    background-color: #FF6000;
+    padding: 2px 20px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.preffer-star .bi-star {
+    background-color: #FF6000;
+}
+
+#sepet2:hover {
+    color: white;
+    background-color: #923c07;
+    padding: 2px 15px auto;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+#sepet2 {
+    color: white;
+    background-color: #FF6000;
+    padding: 2px 25px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.baslik a p.h6 {
+    color: rgb(246, 109, 0);
+
+}
+
+.baslik a {
+    text-decoration: none;
 }
