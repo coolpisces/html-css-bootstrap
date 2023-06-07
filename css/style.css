@@ -491,3 +491,72 @@ header {
     font-size: .9em;
     margin-left: 12px;
 }
+
+.footer-link a {
+    text-decoration: none;
+    color: #959595;
+    font-size: 0.9em;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.feedback-top {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.feedback img {
+    margin: 25px 0;
+}
+
+.feedback p.h5 {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.toggler {
+    font-size: 0.8em;
+}
+
+.toggler a {
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-weight: bolder;
+}
+
+#toggle-info .card {
+    border: none !important;
+}
+
+.bottom-menu-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.links {
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.links a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #959595;
+}
+
+.links strong {
+    margin: 20px 0;
+}
