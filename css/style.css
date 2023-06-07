@@ -537,7 +537,7 @@ header {
     border: none !important;
 }
 
-.bottom-menu-left {
+.bottom-menu {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -549,6 +549,7 @@ header {
     display: inline-flex;
     flex-direction: column;
 
+
 }
 
 .links a {
@@ -559,4 +560,94 @@ header {
 
 .links strong {
     margin: 20px 0;
+}
+
+.toggle-top p {
+    padding: 0 20px;
+}
+
+.bottom-menu-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.links2 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.links2 .bi {
+    font-size: 2.6em;
+    color: gray;
+}
+
+.links2 div {
+    display: flex;
+    align-items: center;
+}
+
+.links2 div small {
+    margin: 0 10px;
+}
+
+.links2 a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #959595;
+    font-size: 12px;
+
+}
+
+.links2 strong {
+    margin: 20px 0;
+}
+
+#hr2 {
+    width: 100%;
+    line-height: 2px;
+    margin: 10px auto;
+}
+
+#hr-colx {
+    background-color: #e3e0e0;
+    margin: 0 5px;
+}
+
+#bottom-sag {
+    margin-top: 10px;
+}
+
+#bottom-sag i {
+    display: flex;
+    font-size: 1.8em;
+    margin-right: 5px;
+}
+
+#bottom-sag a {
+    display: inline;
+    font-size: 0.72em;
+    line-height: 14px;
+}
+
+#bottom-sag span:hover {
+    font-weight: bold;
+}
+
+#footerEnd {
+    background-color: #edecec;
+    height: fit-content;
+}
+
+.deep {
+    font-size: 0.72em;
+    line-height: 10px;
+}
+
+.deep span {
+    color: #919191
 }
