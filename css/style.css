@@ -651,3 +651,144 @@ header {
 .deep span {
     color: #919191
 }
+
+/* Search Page CSS Area */
+
+#filter-main {
+    font-family: Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        Arial,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid Sans,
+        Helvetica Neue,
+        sans-serif !important;
+}
+
+.search-top {
+    color: rgb(63, 62, 62);
+    font-weight: bolder;
+    font-size: 1.75em;
+    margin-top: 50px;
+}
+
+.filter-top #ust {
+    flex-direction: column;
+}
+
+.filter-top #ust a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.filter-top #ust .col {
+    justify-content: space-between;
+}
+
+.order-button {
+    background-color: white;
+    border: 1px solid rgb(234, 232, 232);
+    padding: 3px;
+}
+
+.order-button button,
+.order-button ul li .dropdown-item {
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.order-button ul li .dropdown-item:hover {
+    color: #ff6000
+}
+
+#filter-area {
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 8px;
+
+
+}
+
+#filter-area .row p {
+    margin: 10px;
+    font-size: 0.85em;
+}
+
+.sol-area {
+    border-top: 1px solid rgb(223, 222, 222);
+    border-radius: 8px;
+    padding: 10px 10px;
+    color: #575757;
+
+
+}
+
+.sol-area .btn-warning div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.sol-area .btn-warning {
+    display: inline-flex;
+    border-radius: 30px;
+    width: 48%;
+    font-size: 0.80em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-color: #FF6000;
+    margin-bottom: 15px;
+    line-height: 15px !important;
+}
+
+.sol-area .temizle {
+    margin-left: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #575757;
+    font-size: 0.80em;
+
+}
+
+.sol-area .temizle:hover {
+    color: #ff6000
+}
+
+.check-list {
+    padding: 20px;
+    font-size: 0.85em;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.check-list::-webkit-scrollbar {
+    display: block;
+    width: 15px;
+}
+
+.check-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.form-check input:checked {
+    background-color: #FF6000;
+    border-color: #FF6000;
+}
+
+.sol-area div i {
+    top: 8px;
+    left: 10px;
+}
+
+.sol-area div input[type="text"] {
+    padding-left: 33px;
+}
