@@ -200,10 +200,11 @@
                     </div>
                 </div>
             </div>
-            <div id="filter" class="row g-2">
+            <div id="filter" class="row my-3 g-2">
                 <div id="filter-area" class="col-2">
-                    <div class="row">
+                    <div class="row ">
                         <p><strong>10.000+</strong> ürün listeleniyor</p>
+                        <!--Seçili Filtreler start-->
                         <div class="col sol-area">
                             <p><strong>Seçili Filtreler</strong> (1)</p>
                             <a href="#" class="btn btn-warning text-center">
@@ -211,6 +212,8 @@
                             </a>
                             <a href="#" class="temizle">Temizle</a>
                         </div>
+                        <!--Seçili Filtreler end-->
+                        <!--Marka start-->
                         <div class="col sol-area">
                             <p><strong>Marka</strong></p>
                             <div class="position-relative">
@@ -275,6 +278,8 @@
                                 </div>
                             </div>
                         </div>
+                        <!--Marka end-->
+                        <!--Fiyat Aralığı start-->
                         <div class="col sol-area">
                             <p><strong>Fiyat Aralığı</strong></p>
                             <div class="row justify-content-center align-items-center g-2">
@@ -349,15 +354,2042 @@
                                 </div>
                             </div>
                         </div>
+                        <!--Fiyat Aralığı end-->
+                        <!--Değerlendirme Puanı start-->
+                        <div class="col sol-area">
+                            <p><strong>Değerlendirme Puanı</strong></p>
+                            <div class="row justify-content-center align-items-center g-2">
+                                <div class="col ">
+                                    <div class="check-list">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <i class="bi bi-star-fill"></i>
+                                                <span>4 yıldız ve üzeri</span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <i class="bi bi-star-fill"></i>
+                                                <span>3 yıldız ve üzeri</span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <i class="bi bi-star-fill"></i>
+                                                <span>2 yıldız ve üzeri</span>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <i class="bi bi-star-fill"></i>
+                                                <span>1 yıldız ve üzeri</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Değerlendirme Puanı end-->
+                        <!--Kuponlu Ürünler start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Kuponlu Ürünler</div>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+
+                        </div>
+                        <!--Kuponlu Ürünler end-->
+                        <!--İşlemci Tipi start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>İşlemci Tipi<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample3" aria-expanded="true"
+                                    aria-controls="collapseExample3">
+                                </i>
+                            </p>
+                            <div class="show" id="collapseExample3">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control position-relative" name="" id=""
+                                        placeholder="Filtrele">
+                                    <i class="bi bi-search position-absolute"></i>
+                                </div>
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Intel Core i9
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Core i7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Core i5
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Core i3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Celeron
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Pentium
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel Xeon
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen 7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen 5
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen 3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD A10
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD E
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1255U
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1235U
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--İşlemci Tipi end-->
+                        <!--Ram(Sistem Belleği) start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ram(Sistem Belleği)<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample4" aria-expanded="true"
+                                    aria-controls="collapseExample4">
+                                </i>
+                            </p>
+                            <div class="show" id="collapseExample4">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            64 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            32 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            16 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            8 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            24 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            40 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            20 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            36 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            48 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            128 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            512 GB
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ram(Sistem Belleği) end-->
+                        <!--Ekran Kartı start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ekran Kartı<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample5" aria-expanded="true"
+                                    aria-controls="collapseExample5">
+                                </i>
+                            </p>
+                            <div class="show" id="collapseExample5">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control position-relative" name="" id=""
+                                        placeholder="Filtrele">
+                                    <i class="bi bi-search position-absolute"></i>
+                                </div>
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Intel Iris Xe Graphics
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce MX450
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Paylaşımlı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Radeon Graphics
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce MX550
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce RTX 3060
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce MX350
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Intel UHD Graphics
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce RTX 3050 Ti
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce RTX 3050
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia RTX A2000
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce GTX1650
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            NVidia GeForce GTX1650 Ti
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Onboard
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ekran Kartı end-->
+                        <!--Ekran Boyutu start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ekran Boyutu<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample6" aria-expanded="true"
+                                    aria-controls="collapseExample6">
+                                </i>
+                            </p>
+                            <div class="show" id="collapseExample6">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            17,3 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            16 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            15,6 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            14,1 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            14 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            13,3 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            13 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            12,3 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            11,6 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            11 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            10 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            13,5 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            13,4 inç
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            12 inç
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ekran Boyutu start-->
+                        <!--SSD Kapasitesi start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>SSD Kapasitesi</i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample7" aria-expanded="true"
+                                    aria-controls="collapseExample7">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample7">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            11 TB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            10 TB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 TB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            512 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            256 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            240 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            128 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            120 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            24 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            8 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2 TB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            500 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            250 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--SSD Kapasitesi end-->
+                        <!--İşletim Sistemi start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>İşletim Sistemi<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample8" aria-expanded="true"
+                                    aria-controls="collapseExample8">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample8">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Yok (Free Dos)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 10 Home
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 10 Pro
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 8.1 Home
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 11 Pro
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 11 Home
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 10 Pro (İngilizce)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Endless OS
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 10 (İngilizce)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Android
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Chrome OS
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Windows 11 Home (İngilizce)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--İşletim Sistemi end-->
+                        <!--İşlemci start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>İşlemci<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample9" aria-expanded="true"
+                                    aria-controls="collapseExample9">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample9">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control position-relative" name="" id=""
+                                        placeholder="Filtrele">
+                                    <i class="bi bi-search position-absolute"></i>
+                                </div>
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            1165G7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1135G7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1235U
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1115G4
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            5700U
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1260P
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            11600H
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            5500U
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen 7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1155G7
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            11800H
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            5800H
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen9
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            AMD Ryzen 5
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--İşlemci end-->
+                        <!--Ekran Kartı Hafızası start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ekran Kartı Hafızası<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample10" aria-expanded="true"
+                                    aria-controls="collapseExample10">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample10">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Paylaşımlı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            6 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            8 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            16 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            12 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            3 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 GB DDR3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            512 MB
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ekran Kartı Hafızası end-->
+                        <!--İşlemci Nesil start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>İşlemci Nesil<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample11" aria-expanded="true"
+                                    aria-controls="collapseExample11">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample11">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            1. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            10. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            11. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            12. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            3. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            5. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            7. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            6. Nesil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Ryzen
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            İntel Core i7
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--İşlemci Nesil end-->
+                        <!--Satıcı start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Satıcı<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample12" aria-expanded="true"
+                                    aria-controls="collapseExample12">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample12">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control position-relative" name="" id=""
+                                        placeholder="Filtrele">
+                                    <i class="bi bi-search position-absolute"></i>
+                                </div>
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Hepsiburada
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            notebookstore
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            weblegelsin
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            BT Teknoloji
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            teknoraks
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            atlantis
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Techtone
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Arden Bilişim
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Sanal Destek
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            teknolojidünyası
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Byoazar
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Bisistem
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            E-Markt
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            netsiparis
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Satıcı end-->
+                        <!--Fotoğraflı Değerlendirme start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Fotoğraflı Değerlendirme</div>
+                            <i class="bi bi-info-circle-fill mx-1"></i>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+
+                        </div>
+                        <!--Fotoğraflı Değerlendirme end-->
+                        <!--Güncel Değerlendirme start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Güncel Değerlendirme</div>
+                            <i class="bi bi-info-circle-fill mx-1"></i>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+                        </div>
+                        <!--Güncel Değerlendirme end-->
+                        <!--Kullanım Amacı start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Kullanım Amacı</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample13" aria-expanded="true"
+                                    aria-controls="collapseExample13">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample13">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Ofis ve İş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Oyun ve Eğlence
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Tasarım
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Ev Kullanıcıları - Öğrenci
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Ev
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Kullanım Amacı end-->
+                        <!--Dokunmatik Ekran start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Dokunmatik Ekran</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample14" aria-expanded="true"
+                                    aria-controls="collapseExample14">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample14">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Yok
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Var
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Kullanım Amacı end-->
+                        <!--Harddisk Kapasitesi start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Harddisk Kapasitesi<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample15" aria-expanded="true"
+                                    aria-controls="collapseExample15">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample15">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            512 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            6 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            8 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            16 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            12 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            3 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 GB
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1 GB DDR3
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            512 MB
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Harddisk Kapasitesi end-->
+                        <!--Ekran Özelliği start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ekran Özelliği</i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample16" aria-expanded="true"
+                                    aria-controls="collapseExample16">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample16">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Full HD
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            WQHD
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            WQXGA
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            HD
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            WUXGA
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            4K ULTRA HD
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            QHD
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ekran Özelliği end-->
+                        <!--Max Ekran Çözünürlüğü-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Max Ekran Çözünürlüğü<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample17" aria-expanded="true"
+                                    aria-controls="collapseExample17">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample17">
+                                <div class="position-relative">
+                                    <input type="text" class="form-control position-relative" name="" id=""
+                                        placeholder="Filtrele">
+                                    <i class="bi bi-search position-absolute"></i>
+                                </div>
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            3840x2160
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2880x1800
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2560x1600
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2560x1440
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2160x1440
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1920x1200
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1920x1280
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1920x1080
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1366x768
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1200x800
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1024x600
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            3840x2400
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            1921x1080
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Max Ekran Çözünürlüğü end-->
+                        <!--Ekran Kartı Tipi start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ekran Kartı Tipi</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample18" aria-expanded="true"
+                                    aria-controls="collapseExample18">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample18">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Dahili Ekran Kartı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Harici Ekran Kartı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Yüksek Seviye Harici Ekran Kartı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ekran Kartı Tipi end-->
+                        <!--Optik Sürücü start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Optik Sürücü<i class="bi bi-info-circle-fill mx-1"></i></strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample19" aria-expanded="true"
+                                    aria-controls="collapseExample19">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample19">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Yok
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            DVD RW
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Cd Okuyucu
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            DVD Okuyucu
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            DVD Yazıcı
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Optik Sürücü end-->
+                        <!--Cihaz Ağırlığı start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Cihaz Ağırlığı</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample20" aria-expanded="true"
+                                    aria-controls="collapseExample20">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample20">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            1-2 kg
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2-4 kg
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            2 kg ve Altı
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Cihaz Ağırlığı end-->
+                        <!--Girişimci Kadın Ürünleri start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Girişimci Kadın Ürünleri</i>
+                            </div>
+                            <i class="bi bi-info-circle-fill mx-1"></i>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+                        </div>
+                        <!--Girişimci Kadın Ürünleri end-->
+                        <!--Ürün Modeli start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Ürün Modeli</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample21" aria-expanded="true"
+                                    aria-controls="collapseExample21">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample21">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Notebook
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Oyun Bilgisayarları
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            İkisi Bir Arada
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Ultrabook
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ürün Modeli end-->
+                        <!--Premium Fırsatları start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Premium Fırsatları</i>
+                            </div>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+                        </div>
+                        <!--Premium Fırsatları end-->
+                        <!--İndirimli Ürünler start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">İndirimli Ürünler</i>
+                            </div>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+                        </div>
+                        <!--İndirimli Ürünler end-->
+                        <!--Hemen Al Sonra Öde start-->
+                        <div class="col sol-area d-flex justify-content-center align-items-center">
+                            <div class="col-6 kupon">Hemen Al Sonra Öde</i>
+                            </div>
+                            <div class="col form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                                <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                            </div>
+                        </div>
+                        <!--Hemen Al Sonra Öde end-->
+                        <!--Parmak İzi Okuyucu start-->
+                        <div class="sol-area">
+                            <p class="d-flex justify-content-between">
+                                <strong>Parmak İzi Okuyucu</strong>
+                                <i class="bi bi-caret-down-fill" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseExample22" aria-expanded="true"
+                                    aria-controls="collapseExample22">
+                                </i>
+                            </p>
+                            <div class="collapse" id="collapseExample22">
+                                <div class="check-list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Yok
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Var
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Belirtilmemiş
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Parmak İzi Okuyucu end-->
+                        <!--Kelime Filtresi start-->
+                        <div class="col sol-area">
+                            <p><strong>Kelime Filtresi</strong></p>
+                            <div class="row justify-content-center align-items-center g-2">
+
+                                <div class="col d-flex mx-3">
+                                    <div class="col-8 radio-area">
+                                        <input type="text" class="form-control d-flex" name="" id="" placeholder="Ara">
+                                    </div>
+                                    <div class="col-4 radio-area">
+                                        <a href="#" class="btn btn-outline-secondary">
+                                            <i class="bi bi-check-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Kelime Filtresi end-->
                     </div>
                 </div>
-                <div id="list-area" class="col-10">Column</div>
+                <div id="list-area" class="col-10 mx-auto">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <div class="col-11 d-flex align-items-center bg-info">
+                            <p class="h6"><strong>Ekran Kartı</strong></p>
+                            <!--Slider top start-->
+                            <div id="slider-top" class="carousel carousel-dark slide container">
+                                <div class="carousel-item active">
+                                    <button class="btn btn-outline-secondary">Buton1</button>
+                                    <button class="btn btn-outline-secondary">Buton2</button>
+                                    <button class="btn btn-outline-secondary">Buton3</button>
+                                    <button class="btn btn-outline-secondary">Buton4</button>
+                                    <button class="btn btn-outline-secondary">Buton5</button>
+                                    <button class="btn btn-outline-secondary">Buton6</button>
+                                    <button class="btn btn-outline-secondary">Buton7</button>
+                                </div>
+                                <div class="carousel-item">
+                                    <button class="btn btn-outline-secondary">Buton2</button>
+                                    <button class="btn btn-outline-secondary">Buton3</button>
+                                    <button class="btn btn-outline-secondary">Buton4</button>
+                                    <button class="btn btn-outline-secondary">Buton5</button>
+                                    <button class="btn btn-outline-secondary">Buton6</button>
+                                    <button class="btn btn-outline-secondary">Buton7</button>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center align-items-center g-2">
+                                        <button class="btn btn-outline-secondary">Buton3</button>
+                                        <button class="btn btn-outline-secondary">Buton4</button>
+                                        <button class="btn btn-outline-secondary">Buton5</button>
+                                        <button class="btn btn-outline-secondary">Buton6</button>
+                                        <button class="btn btn-outline-secondary">Buton7</button>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider-top"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider-top"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!--Slider top end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col d-flex justify-content-left align-items-center">
+                    <p class="h6"><strong>Aradığınız ürünü bulabildiniz mi?</strong></p>
+                    <a href="#" class="btn btn-outline-secondary mx-3">Evet</a>
+                    <a href="#" class="btn btn-outline-secondary">Hayır</a>
+                </div>
+            </div>
+            <!-- Toggle start-->
+            <div class="toggler">
+                <div class="toggle-top">
+                    <p>
+                    <p><strong>Lenovo Laptop</strong> </p>
+                    <p>Son teknolojiyi sizlerle buluşturan ve gücü parmaklarınızın ucuna getiren
+                        <strong>Lenovo laptop</strong>, her
+                        kullanıcı tipine hitap eden geniş model yelpazesi ile dikkatleri çekiyor. İş, ev ve
+                        oyun için ayrı olarak dizayn
+                        edilmiş olan seçenekler, benzersiz bir deneyimin kapılarını aralıyor. Günlük
+                        kullanım, öğrenci, eğlence ve
+                        yaratıcılık, iş ve oyun gibi farklı kategoriler içerisinden kendi istek ve
+                        ihtiyacınıza uygun olan modeli kolaylıkla
+                        bulabilmenize imkan tanıyor. Yüksek performans sergileyen <strong>Lenovo notebook
+                        </strong>modelleri, tasarımları
+                        ile de kullanıcıların beğenisini kazanıyor. Hafif olmaları, taşınabilirlik
+                        özelliklerini beraberinde getiriyor.
+                    </p>
+                    <a class="" data-bs-toggle="collapse" href="#toggle-info" role="" aria-expanded="false"
+                        aria-controls="multiCollapseExample1">Devamını Göster</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse" id="toggle-info">
+                            <div class="card card-body">
+                                <p>
+                                <p>İhtiyacınız olan her yerde ve her zamanda sizlere eşlik eden bu ürünler, kullanışlı
+                                    özellikleri ile kişisel
+                                    yardımcınız olmayı başarıyor. Okulda başarınızı, iş hayatınızda ise üretkenliğinizi
+                                    artırıyor. Ekran boyutu, hard
+                                    disk kapasitesi, ekran çözünürlüğü, ekran kartı tipi, RAM, SSD kapasitesi, işlemci
+                                    tipi ve daha birçok özelliğe göre
+                                    değişkenlik gösteren modeller; uzman bilgisi ve tecrübe birikimi ile kusursuz bir
+                                    şekilde hizmetinize sunuluyor.
+                                    Testlerden geçirilerek her zaman daha iyisini ve gelişmişini hedefleyen
+                                    <strong>Lenovo laptop özellikleri
+                                    </strong>sizlerin istek ve ihtiyaçları göz önünde bulundurularak şekilleniyor. Aşırı
+                                    ısınma ve çarpma gibi
+                                    durumlarda zarar görme problemlerini ortadan kaldıran bu ürünler, eşsiz dizaynı ve
+                                    sağlamlığı ile dikkatleri
+                                    çekiyor. Hayalinizdeki modeli seçerken kullanım amacınızı ve ihtiyaçlarınızı
+                                    belirlemek, önemli bir adım oluyor.
+                                    <strong>Lenovo laptop önerileri </strong>içerisinde ön plana çıkan serileri yakından
+                                    inceleyebilir, sizin için ideal
+                                    modele hemen şimdi bütçe dostu fiyatlarla sahip olabilirsiniz.
+                                </p>
+                                <p><strong>Ofiste Performansınızı Yüksek Seviyelere Çıkaran Lenovo Laptop Modelleriyle
+                                        Tanışın </strong> </p>
+                                <p>Kurumsal veya kişisel ofislerinizde kurtarıcınız olan <strong>Lenovo SSD laptop
+                                    </strong>özellikleriyle
+                                    performansınızı yüksek seviyelere çıkarıyor. ThinkPad serisi, farklı model
+                                    seçenekleriyle iş için ideal bir seçim
+                                    oluyor. X1 Carbon 8. Nesil, X1 Extreme Gen 2, T15 Intel ve diğer alternatifleri;
+                                    sizlere tüm gün güç sağlıyor. Üstün
+                                    hızından ödün vermeyen işlemci sistemleri, uzun ömürlü pil gücü ile üretkenliğinizin
+                                    hareket halindeyken de aktif
+                                    olmasını sağlıyor. Hızlı şarj özelliği, kısa süre içerisinde yardımcınızı kullanıma
+                                    hazır hale getiriyor. Yavaş
+                                    açılış gibi problemler artık geride kalıyor. Sürekli etkin olan yanıt hızı sayesinde
+                                    bilgisayarınız saniyeler
+                                    içerisinde uyandırılıp internette gezinti yapmaya imkan tanıyabiliyor. Dayanıklı ve
+                                    hafif yapısı sayesinde
+                                    üretkenliğinizi her ortama taşıyabiliyorsunuz. Böylece, işinize her koşulda
+                                    odaklanabiliyorsunuz. Rahatlığı
+                                    parmaklarınızın ucuna getiren <strong>Lenovo laptop dokunmatik </strong>modelleri,
+                                    ister klavye ister ekran
+                                    dokunmatiği ile bilgisayarınızı kullanabilmenize imkan tanıyor. Üst düzey gücü ve
+                                    olanakları sizlerle buluşturuyor.
+                                    Yüksek verimlilik ve mükemmel başarı için özel olarak tasarlanan bu ürünler;
+                                    mühendislik, mimarlık ve benzeri
+                                    alanlarda grafik ve tasarım işleriniz için sizlere yardımcı oluyor. Güçlü bir
+                                    öğrenme aracı işlevi görüyor. 4K UHD
+                                    ekran özelliği sayesinde resim ve videolarınızı gerçekçi bir şekilde görmenize imkan
+                                    tanıyor. HDR yani yüksek
+                                    dinamik aralığı ve fabrika renk kalibrasyonu teknolojilerinin bir araya geldiği
+                                    modeller; ekranı tüm ayrıntıları ve
+                                    renkleriyle kusursuz bir şekilde görebilmenizi sağlıyor. Görüntülerin kalitesini
+                                    yüksek seviyelere taşıyan
+                                    <strong>Lenovo 14 inç laptop</strong>, 15, 13, 12.5 inç ve daha birçok ekran boyutu
+                                    seçeneklerini beğenilerinize
+                                    sunuyor.
+                                </p>
+                                <p>Görüntülerin yanı sıra seslerin de ayrıntılarını kaçırmadan dinleyebilmenizi
+                                    sağlıyor. Uzaktan ses algılayan özel
+                                    mikrofonu ve kullanan kişiye dönük olan hoparlörleri ile benzersiz bir ses
+                                    deneyiminin kapılarını aralıyor. Dolby
+                                    Audio teknolojisi sayesinde bulunduğunuz ortamı sinema salonuna çevirebiliyor. Ses
+                                    ayarlarını değiştirmenize ve
+                                    kontrol etmenize izin veriyor. <strong>Lenovo laptop kamera açma </strong>işlemi bir
+                                    tuşla saniyeler içerisinde
+                                    gerçekleşebiliyor. Bu sayede, iş toplantılarınızı ve kişisel görüşmelerinizi yüksek
+                                    kaliteli ve görüntülü bir
+                                    şekilde yapabiliyorsunuz. Dijital hayatın hızını yardımcınızın desteği ile
+                                    kolaylıkla yetişebiliyorsunuz. Ofiste,
+                                    işte, okulda ve bulunmak istediğiniz her yerde üretkenliğinizi yüksek seviyelere
+                                    çıkaracak olan modelleri yakından
+                                    inceleyerek başarınız için önemli bir adım atabilirsiniz. </p>
+                                <p><strong>Yoga Serisi Lenovo Laptop ile Evde Sınırları Ortadan Kaldırın</strong> </p>
+                                <p>Son nesil teknolojiyi ve akıllı çözümleri hizmetinize sunan <strong>Lenovo yoga
+                                        laptop </strong>serisi, evde
+                                    sınırları ortadan kaldırarak tüm dünyaya erişebilmenizi sağlıyor. Ev kullanımı için
+                                    ideal olan bu seri, şık
+                                    tasarımları ile göz dolduruyor. Güçlü işletim sistemleri sayesinde çok yönlü bir
+                                    kullanım imkanı tanıyor. Ultra ince
+                                    yapısı, estetik görünümü ve konforu beraberinde getiriyor. Kullanıcıların beğenisini
+                                    kazanan tasarımı, yüksek
+                                    kaliteli alüminyum materyal ile zenginleştiriliyor. Her detayında eşsiz bir dokunuş
+                                    deneyimi yaşatıyor. Hafifliği ve
+                                    inceliği, özgürce hareket edebilmenizi sağlıyor. Eğimli konturlu ekranı ile bir ilke
+                                    imza atıyor. Yapay zekanın
+                                    aktif olarak yer aldığı <strong>Lenovo yoga notebook</strong>, sizlerin
+                                    seçimlerinize göre ihtiyaçlarınızı
+                                    öngörüyor. Bilgisayarınızın başında olmadığınız zaman ekranı kararıyor ve
+                                    içeriklerinizi kayıt edip gizli tutuyor.
+                                    Bu sayede, hem enerji tasarrufu yapılmış hem de çalışmalarınızın gizliliği korunmuş
+                                    oluyor. BackBlur teknolojisi,
+                                    görüntülü görüşmelerinizde arka planınızı bulanıklaştırıyor. Böylece, eviniz veya
+                                    ofisiniz dağınık olduğunda bile
+                                    gönül rahatlığı ile görüşmelerinizi gerçekleştirebiliyorsunuz. Hands free özelliği
+                                    ise klavyeyi kullanmanıza gerek
+                                    kalmadan bilgisayarınıza saniyeler içerisinde erişim sağlamanıza yardımcı oluyor.
+                                    Kamerası yüzünüzü tanıyarak bir
+                                    bakışta kilidi açıyor. Uzun süren pil ömrü; çalışmalarınızın ve eğlencelerinizin
+                                    yarım kalmasına izin vermiyor. Aynı
+                                    zamanda birçok iş yapabilmenizi sağlayan güçlü pili ile beğenilerinizi kazanıyor.
+                                    Ultra net ekranı, 4K netliği
+                                    gözler önüne seriyor. İnce çerçevesi ve geniş ekranı, eğlenceyi doruklarda
+                                    yaşatıyor. Gerçeğe yakın görüntüler ve
+                                    Dolby Atmos Speaker teknolojisi ile sizlere sunulan üç boyutlu ses sistemi, her
+                                    yönüyle sizleri ekranın içerisine
+                                    almayı başarıyor.</p>
+                                <p>Grafik tasarım, video ve fotoğraf düzenleme için özelleştirilmiş fonksiyonlara sahip
+                                    olan modelleri; hayal gücünüzün
+                                    sınırlarınızı aşıyor. Yüksek hızı, beklemenize gerek kalmadan her an üretken
+                                    olmanıza imkan tanıyor. <strong>Lenovo
+                                        kalemli laptop </strong>modelleri ise düşüncelerinizi dijital bir kalem
+                                    yardımıyla ekran üzerine aktarmanızı
+                                    sağlıyor. Aklınıza gelen inanılmaz fikirleri, anında kayıt altına alabiliyorsunuz.
+                                    Özel bölmesi, kaleminizi güvenli
+                                    bir şekilde muhafaza ediyor. WiFi 6 teknolojisine sahip olan ürünler, veri akışını
+                                    daha hızlı ve sorunsuz
+                                    gerçekleştiriyor. İnternette beklemeden gezinti yapabilmeniz konusunda önemli bir
+                                    rol oynuyor. Barut grisi, koyu
+                                    yosun, orkide rengi ve diğer renk tonu seçenekleri ile göze hitap eden Yoga serisi;
+                                    tekstil kaplamalı olan modeliyle
+                                    de dikkatleri çekiyor. Dokusu ve görüntüsünün dikkat çekici olmasının yanı sıra
+                                    kumaşının leke tutmaması ve ateşe
+                                    dayanıklı olması ile de bir ilke imza atıyor. Şık tasarımları sizlerle buluşturan
+                                    <strong>Lenovo katlanabilir
+                                        laptop</strong>, özgürce hareket edebilmenize imkan tanıyor. İnceliği, zarif bir
+                                    duruşu beraberinde getiriyor.
+                                    Yaşam alanlarınızda vazgeçilmez yardımcınız olan Yoga serisini yakından inceleyerek
+                                    sizin için ideal olan modeli
+                                    kolaylıkla bulabilirsiniz.
+                                </p>
+                                <p><strong>Oyun Tutkunlarının Tercihi Legion Lenovo Laptop Serisi</strong> </p>
+                                <p><strong>Lenovo oyun laptop </strong>modelleri, oyun tutkunlarının diledikleri yerde
+                                    eğlenceyi doyasıya yaşamalarını
+                                    sağlıyor. Aerodinamik gücü parmaklarınızın ucuna taşıyor. İleri teknolojilerle
+                                    zenginleştirilen eşsiz sistemi,
+                                    favori oyunlarınızı kesintisiz bir şekilde oynayabilmenize imkan tanıyor. Tek ya da
+                                    çok oyunculu eğlencelerinizde
+                                    hızı maksimum seviyeye çıkarıyor. Legion serisi, görüntüleri tüm detayları ile
+                                    gözler önüne seriyor. Yüksek ekran
+                                    çözünürlüğü ve geniş ekran boyutu, görselleri mükemmel bir şekilde yansıtıyor.
+                                    Display HDR ve Dolby Vision
+                                    teknolojileri, sizleri adeta oyunun içerisindeki dünyaya götürüyor. TrueStrike
+                                    klavyesi; benzersiz tuş takımlarıyla
+                                    hassas bir kullanım sunuyor. Yüksek performansı, oyun aksesuarları ile destekliyor.
+                                    Sürükleyici bir deneyim için
+                                    ihtiyacınız olan tüm detayları sizlerle buluşturuyor. Performans modu, oyun
+                                    uygulamalarını otomatik olarak kalibre
+                                    ediyor. Sessiz modu ise pil gücünüzden tasarruf ediyor. Standart kullanımlarınızda
+                                    denge modu ideal oluyor. Tüm
+                                    modları kolay bir şekilde ayarlayabileceğiniz arayüzü, konforlu bir kullanımı
+                                    beraberinde getiriyor.</p>
+                                <p><strong>Lenovo i7 laptop</strong> işlemcisi, Windows 10 Home işletim sistemi ile bir
+                                    araya gelerek sizlere yeni bir
+                                    dünyanın kapılarını aralıyor. Yenilikçi duruşundan ödün vermeyen modeller,
+                                    içinizdeki başarılı savaşçıyı ortaya
+                                    çıkarıyor. Yeni nesil oyunları sorunsuz bir şekilde açıyor. Pratik bir kullanım
+                                    sunan ara yüzleri ve mobilite
+                                    konusundaki üstün başarısı sayesinde güçlü bir performans kaçınılmaz oluyor. Dinamik
+                                    tasarımları, eğlenceye
+                                    odaklanmanıza yardımcı oluyor. <strong>Lenovo i5 laptop </strong>işlemcisine sahip
+                                    olan seçenekler de hızdan ödün
+                                    vermiyor. Farklı işletim sistemleriyle iş birliği içerisinde çalışarak sizlere
+                                    hayalinizdeki deneyimi yaşatıyor.
+                                    Soğutma sistemi, uzun süreli kullanımlarda bile bilgisayarınızın serin kalmasını
+                                    sağlıyor ve herhangi bir zorlama ve
+                                    yavaşlamaya izin vermiyor. Geniş ekranlar sizleri oyunların içerisine davet ediyor.
+                                    Soğutma ve toz temizleme
+                                    sistemlerinin çalışması esnasında ortaya koyduğu sessizlik ile dikkatinizin
+                                    dağılmasını önlüyor. Grafikleri yapay
+                                    zekayla geliştirilen <strong>Lenovo gamer laptop</strong> modelleri, ideal yenileme
+                                    hızı ve tepki süresi ile her
+                                    ayrıntıyı yakalamanızı sağlıyor. Benzersiz ses sistemiyle sizleri derin bir
+                                    atmosferin içine alıyor. Sürükleyici bir
+                                    şekilde eğlencelerine devam etmek isteyen kullanıcıların tercihi olan <strong>Lenovo
+                                        laptop 8 GB RAM</strong>
+                                    değerinden 64 GB RAM değerine kadar sizlere geniş bir sistem belleği seçeneği
+                                    sunuyor. Favori oyunlarınızı saniyeler
+                                    içerisinde açıp sorunsuz bir şekilde oynamanıza imkan tanıyan bu ürünler ile gamer
+                                    becerilerinizi
+                                    geliştirebilirsiniz. </p>
+                                <p><strong>Güçlü Performansıyla Göz Dolduran Lenovo Laptop </strong></p>
+                                <p>Gelişen teknoloji ile birlikte yenilenmeye ve güçlenmeye devam eden <strong>Lenovo
+                                        laptop 4 GB RAM</strong>, 8 GB
+                                    RAM, 16 GB RAM ve diğer sistem beklediği seçenekleri ile her kullanıcıya hitap
+                                    ediyor. Canlı görseller ve yepyeni
+                                    bir ses deneyimi ile sizlere farklı bir deneyim sunuyor. 4K ekran, film
+                                    gecelerinizin favorisi oluyor. Geliştirilmiş
+                                    güvenlik sistemiyle kişisel bilgilerinizi ve çalışmalarınızı koruma altına alıyor.
+                                    Hafiflikleri ve ince yapıları ile
+                                    ön plana çıkan modeller, taşınabilirlik konusunda sizlere avantaj sağlıyor. Stil
+                                    sahibi kullanıcıların tercihi olan
+                                    birbirinden tarz seriler, her detayları ile şık bir duruş sergiliyor. Renkli ve
+                                    aydınlatmalı klavyeler,
+                                    <strong>Lenovo gaming notebook </strong>modellerinde dikkatleri çekiyor. Keyifli bir
+                                    kullanımı kaçınılmaz kılan oyun
+                                    notebook serileri, Coldfront soğutma teknolojisi ile buluşuyor. Bu teknoloji
+                                    sayesinde dilediğiniz kadar oyun
+                                    oynayabiliyor, bilgisayarınızın ısınma ve zarar görme endişesinden kurtuluyorsunuz.
+                                    Hızlı şarj özelliği de
+                                    kullanıcıların beğenisini kazanan unsurlar arasında yer alıyor. Kısa süreli şarj
+                                    işlemlerinden sonra uzun süreli bir
+                                    deneyim sunuyor.
+                                </p>
+                                <p>Dijital ses yardımı, birçok işlemi sesli komutlar ile yapabilmenize imkan tanıyor.
+                                    Hayatınızı kolaylaştıran daha
+                                    birçok özelliği ile <strong>Lenovo i3 laptop</strong>, i5, Intel Xeon, AMD Ryzen 7,
+                                    AMD Ryzen 5 ve diğer işlemci
+                                    tipi alternatiflerini hizmetinize sunuyor. İş , oyun, küçük ve orta işletmeler,
+                                    günlük kullanım ve daha birçok amaç
+                                    için özel olarak dizayn edilen model yelpazesi; verimli bir kullanımı beraberinde
+                                    getiriyor. Zamandan tasarruf
+                                    etmenizi sağlayan yerleşik fonksiyonlar, üretkenliğinizi de yüksek seviyelere
+                                    çıkarıyor. <strong>Lenovo katlanabilir
+                                        notebook </strong>seçenekleri, hayat tarzınıza uyum sağlıyor. 360 dereceye kadar
+                                    katlanabilen bu ürünler, farklı
+                                    işlemleriniz için uygun modu bulabilmenizi kolaylaştırıyor. Yardımcınızı dik konuma
+                                    getirerek keyifli ve konforlu
+                                    bir film saati gerçekleştirebilirsiniz. Günlük kullanım için dizüstü standart moda
+                                    saniyeler içerisinde geçiş
+                                    yapabilirsiniz. <strong>Lenovo tablet notebook </strong>olarak kullanılabilen
+                                    birbirinden tarz modeller, çoklu
+                                    kullanım özellikleriyle dikkat çekiyor. Laptop üzerinden işlerinizi hallettikten
+                                    sonra tablet formuna dönüştürerek
+                                    eğlencenize kaldığınız yerden devam edebiliyorsunuz. Dilerseniz dokunmatik ve
+                                    kalemli alternatifleri tercih ederek
+                                    deneyiminizi zenginleştirebilirsiniz. Ezber bozan seriler ile siz de dijital
+                                    hayatınıza yeni bir soluk
+                                    getirebilirsiniz.</p>
+                                <p><strong>Hayalinizdeki Lenovo Laptop İçin Doğru Adres Hepsiburada!</strong></p>
+                                <p>Her ihtiyaca ve kullanıma uygun olan Lenovo marka laptop modelleri, geniş ürün
+                                    yelpazesi ile kullanıcıların
+                                    beğenisini kazanıyor. Legion, Yoga, ThinkPad ve X1 Carbon serileriyle ön plana çıkan
+                                    bu ürünler; hareket halindeyken
+                                    bile gücü parmaklarınızın ucuna taşıyor. <strong>Lenovo dokunmatik notebook
+                                    </strong>seçenekleri, bilinen ezberleri
+                                    geride bırakıyor. Ekrana erişiminizi artıran bu özellik, düşünceleriniz ve
+                                    hareketleriniz arasında geçen zamanı
+                                    kısaltıyor. Bu sayede, dilediğiniz tüm işlemleri saniyeler içerisinde
+                                    gerçekleştirebiliyorsunuz. <strong>Lenovo mini
+                                        notebook </strong>ise bilgisayar kullanımına ilk adım atanların tercihi oluyor.
+                                    Creator, Duet, Flex, 500s ve
+                                    diğer farklı serileri; özelleştirilmiş kullanım alanlarına hitap ediyor. İş, okul,
+                                    içerik üretimi ve günlük kullanım
+                                    için ideal olan birbirinden tarz modeller hizmetinize sunuluyor.</p>
+                                <p><strong>Lenovo mini laptop </strong>serileri, taşınabilirlik açısından da sizlere
+                                    avantaj sağlıyor. Uzmanlar ile iş
+                                    birliği içerisinde geliştirilen <strong>Lenovo laptop ekran </strong>özellikleriyle
+                                    de ön plana çıkıyor. Harici,
+                                    dahili ve yüksek seviye harici ekran kartı tipi seçenekleri; farklı kullanıcı
+                                    tiplerinin ihtiyaçlarına uyum
+                                    gösteriyor. Full HD, HD, FHD, 4K Ultra HD ve QHD ekran özellikleri sayesinde
+                                    görüntüler tüm detayları ve gerçekliği
+                                    ile gözler önüne seriliyor. Yüksek ekran çözünürlüğü ve ekran kartı hafızası,
+                                    üretkenliğinizi artırıyor.
+                                    <strong>Lenovo 14 inch notebook </strong>seçenekleri, kullanıcıların sıklıkla tercih
+                                    ettiği ekran boyutları arasında
+                                    yer alıyor. Ürün yelpazesi içerisinde 12.5, 13.3, 17.3 inç gibi farklı ekran boyutu
+                                    değerleri de karşınıza çıkıyor.
+                                    Akıllı performansı ve çok yönlü kullanımları ile hayatınızın her alanında sizlere
+                                    eşlik eden bu ürünler, konfor ve
+                                    verimlilik için özel olarak geliştiriliyor. Sizlerin istek ve ihtiyaçları
+                                    doğrultusunda şekillenen tasarımı ve
+                                    teknik özellikleri, nokta atışlar yaparak hayatınızı kolaylaştırıyor. <strong>Lenovo
+                                        4 GB RAM laptop</strong> 64
+                                    GB’a kadar genişleyebilen farklı sistem belleği değerlerini sizlere sunuyor.
+                                    Çalışmalarınız ve bilgileriniz her daim
+                                    güvende ve bilgisayarınızda oluyor. Ürün sayfasını ziyaret ederek <strong>Lenovo
+                                        laptop yorumları</strong>,
+                                    modelleri ve merak ettiğiniz diğer bilgileri bulabilirsiniz. Benzersiz bir deneyime
+                                    size özel fırsat ve kampanyalar
+                                    ile hemen şimdi sahip olabilirsiniz.
+                                </p>
+                                <p><strong>Lenovo Laptop Alırken Nelere Dikkat Edilmeli?</strong></p>
+                                <p>Lenovo laptop alırken öncelikle hangi kullanım amacı ile aldığınızı belirlemeye
+                                    dikkat etmelisiniz. İş, ev, okul veya
+                                    oyun alanlarından birini belirledikten sonra bu alan için ihtiyacınız olan işlemci
+                                    tipi, sistem belleği, ekran
+                                    boyutu, kapasite ve işlemci hızı gibi özellikleri göz önünde bulundurarak seçiminizi
+                                    yapmalısınız.</p>
+                                <p><strong>Lenovo Laptop Şarjı Ne Kadar Gider?</strong></p>
+                                <p>Lenovo laptop şarj kullanım süreleri modeller arasında değişkenlik göstermekle
+                                    beraber 8 saatten 20 saate kadar
+                                    değişebilen bir aralık sunuyor.</p>
+                                <p><strong>Lenovo Laptop Teknik Özellikleri Nedir?</strong></p>
+                                <p>Lenovo laptop teknik özellikleri seriler içerisinde farklılık gösteriyor. Windows 10
+                                    Home veya Windows 10 Pro işletim
+                                    sistemi seçenekleri, dahili veya harici ekran kartı tipi, yüksek ekran çözünürlüğü,
+                                    sistem belleği, 1. Nesilden 10.
+                                    Nesile kadar geniş bir yelpazeye sahip olan işlemci nesli ve ekran kartı hafızası ön
+                                    plana çıkan teknik özellikleri
+                                    arasında yer alıyor.</p> </span>
+                            </div>
+                            <a class="" data-bs-toggle="collapse" href="#toggle-info" role="" aria-expanded="false"
+                                aria-controls="multiCollapseExample1">Devamını Gizle</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Toggle end-->
     </div>
-
-
-
+    </div>
 
     <div class="clear-fix"></div>
     <br><br><br>
@@ -421,239 +2453,6 @@
 
                 </div>
             </div>
-            <hr>
-            <!-- Toggle start-->
-            <div class="toggler">
-                <div class="toggle-top">
-                    <p>
-                        <strong>Alışveriş fırsatları</strong><br><br>
-                        Türkiye'nin en büyük online alışveriş sitesi Hepsiburada, 2001 yılından bu yana
-                        hizmet veriyor. Doğan Holding bünyesinde
-                        faaliyet gösteren Hepsiburada, yenilikleri ile Türkiye'nin dijital alışveriş
-                        sektörüne yön veriyor. Online alışveriş
-                        deneyimini her geçen gün daha kolay hale getiren, dijitalleşen dünyanın gereklerine
-                        uygun geliştirmelerle sunduğu
-                        hizmetleri daha da avantajlı kılan Hepsiburada, ziyaretçilerine bol çeşit, uygun
-                        fiyat, hızlı teslimat ve sürpriz
-                        indirimler sunuyor. Bugün 35'ten fazla kategori içinde 20 milyondan fazla ürün
-                        çeşidi bulunduran site, 16 milyondan
-                        fazla üye ile Türkiye'de e-ticaretin lideri olmanın gururunu yaşıyor.
-                        <br><br>
-                        En iyi ürünleri en uygun fiyatlarla, en hızlı teslimatla ve müşteri memnuniyeti
-                        hedefiyle sunan Hepsiburada, büyümeye ve
-                        Türkiye'de e-ticaret deneyiminin standartlarını her geçen gün yükseltmeye devam
-                        ediyor. <br>
-                        <a class="" data-bs-toggle="collapse" href="#toggle-info" role="" aria-expanded="false"
-                            aria-controls="multiCollapseExample1">Devamını Göster</a>
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse" id="toggle-info">
-                            <div class="card card-body">
-                                <p>
-                                    <strong>Teknolojnin En İyi Markaları Hepsiburada'da</strong><br><br>
-
-                                    Hepsiburada'un avantajlarla sunduğu elektronik ürünler içinde bilgisayar
-                                    modellerinden cep telefonu ürünlerine,
-                                    bluetooth kulaklık tasarımlarından laptop seçeneklerine, tablet çeşitlerinden akıllı
-                                    saat ürünlerine kadar birçok
-                                    alternatif yer alıyor. En iyi teknoloji markaları, özel ürünleri ve avantajlı ödeme
-                                    seçenekleri ile Hepsiburada'da
-                                    müşterilerle buluşuyor. Dünyanın en ünlü elektronik markalarından Apple iPhone,
-                                    Huawei, Samsung ve Xiaomi telefon
-                                    modelleri, beyaz eşyanın gözdeleri çamaşır ve bulaşık makineleri, küçük ev aletleri
-                                    sitede sizleri bekliyor. Arnica
-                                    süpürgelerden Hisar Tencere setlerine, Fakir mikser de dahil olmak üzere evinizin
-                                    ihtiyacı bir çok seçenek
-                                    Hepsiburada'da. Hayatı kolaylaştıran en iyi klima modelleri, sıcacık kışlar için
-                                    soba ve UFO ısıtıcı çeşitleri de
-                                    elektronikler içinde yer alıyor. Ayrıca PlayStation ve benzeri oyun konsolu
-                                    alternatifleri ile en popüler konsol
-                                    oyunları da oyunseverleri bekliyor.
-
-                                    <br><br><strong>Modanın Nabzını Tutan Tasarımlar Bir Arada</strong><br><br>
-
-                                    Hepsiburada modayı yakından takip edenlerin de gözdesi.Hepsimoda kategorisinde
-                                    kadın, erkek, çocuk ve bebek
-                                    kıyafetlerinin yanı sıra ayakkabı, çanta ve aksesuarları sunan site, moda
-                                    trendlerini kullanıcılarına sunuyor. Giyim
-                                    ihtiyaçlarını en trend ürünleri sunarak karşılayan Hepsiburada, günlük giyim
-                                    alternatiflerinden abiyelere, spor giyimden
-                                    ofis kıyafetlerine kadar farklı ihtiyaçlar için çeşit vadediyor. Türkiye'nin ve
-                                    dünyanın sevilen giyim markaları en yeni
-                                    ürünleriyle sezon modasını gardırobunuza taşıyor. Kışlık kadın kaban seçeneklerinden
-                                    kazaklara, kadın çizme
-                                    tasarımlarından topuklu ayakkabı modellerine, tesettür giyim ürünlerinden abiye
-                                    elbise tasarımlarına kadar aradığınız
-                                    her şeyi Hepsimoda'da bulabilirsiniz. Hepsiburada'nın her bütçeye, her zevke uygun
-                                    giyim ürünleri arasından hem kendi
-                                    ihtiyaçlarınızı karşılayabilir hem de sevdiklerinize hediye alabilirsiniz. Kadın
-                                    ayakkabı ve erkek spor ayakkabı
-                                    modellerinde zengin ürün yelpazesi sunan Hepsiburada, çocukların ihtiyaçları için de
-                                    doğru adres.
-
-                                    <br><br><strong>Evinizi ve İş Yerinizi Baştan Yaratın</strong><br><br>
-
-                                    Eviniz ve ofisiniz için ihtiyaç duyduğunuz her şeyi bir arada bulabileceğiniz
-                                    Hepsiburada aracılığıyla ev dekorasyon ve
-                                    ofis dekorasyon ürünlerinden ev tekstili tasarımlarına, kırtasiye malzemelerinden
-                                    okul alışverişi için gerekli olan
-                                    defter ve kalemlere kadar her şeyi sipariş verebilirsiniz.Ofis kırtasiye gereçlerini
-                                    hem kendiniz hem de çocuklarınız ve
-                                    sevdikleriniz için alabilirsiniz. Evinizi baştan yaratacak mobilyalardan
-                                    çocuklarınıza resim yapmayı sevdirecek renkli
-                                    kalemlere kadar her şeyiHepsiburada avantajlarıyla bulabilirsiniz.
-
-                                    <br><br><strong>Aradığınız Yapı Ürünleri Burada</strong><br><br>
-
-                                    Yapı market ihtiyaçlarınızı birkaç tık ile karşılayabilir, lastik modellerinden
-                                    otomotiv parçalarına, hırdavat ve nalbur
-                                    ürünlerinden bahçe gereklerine kadar her şeyi kolaylıkla sipariş edebilirsiniz.
-                                    Arabanız için tampon arıyor veya sadece
-                                    bir jant veya araç içi paspas almak istiyor olabilirsiniz, adresiniz aynı.
-                                    Hepsiburada, büyük küçük tüm ihtiyaçlarınız
-                                    için hizmetinizde. Kış lastiği mi almanız gerek, aradığınız dünyaca ünlü markalar
-                                    avantajlarla kapınızda. Petlas lastik
-                                    ürünleri, Bridgestone lastik alternatifleri aracınıza uygun çeşitlerle seçimi size
-                                    bırakıyor.Dilerseniz Pirelli lastik,
-                                    Lassa lastik ya da Michelin lastik seçeneklerini de değerlendirebilirsiniz.
-                                    Hepsiburada, sürüş deneyiminizi maksimum
-                                    rahatlığa ulaştıracak navigasyon sistemleri, araç radyoları ve TV ekranlarını da
-                                    geniş ürün gamında bulunduruyor.
-
-                                    <br><br><strong>Annelerin de Çocukların da Gözdesi</strong><br><br>
-
-                                    Annelerin ve anne adaylarının ihtiyaçlarına yanıt veren ürünler arasında ana kucağı,
-                                    emzik, biberon, bebek arabası,
-                                    bebek bakımı ürünleri ve çeşit çeşit oyuncak yer alıyor.Anne babaların hayat
-                                    kolaylaştırmak üzere tasarlanan ürünlerden,
-                                    siz de çocuğunuz ve kendiniz için en iyisini sipariş verebilirsiniz. Bebeklikten
-                                    çocukluğu ve ergenliğe kadar çocuklar
-                                    için yaşa özel ürünler, Hepsiburada'da bir arada bulunuyor. Hepsiburada, Prima bebek
-                                    bezi veya Huggies bebek bezi
-                                    çeşitlerini avantajlı kampanyalarla Hepsiburada'da bulabilir, farklı ürünleri
-                                    kıyaslayabilir, seçiminizi yapabilirsiniz.
-
-                                    <br><br><strong>Sporu Sevdiren Tasarımlar</strong><br><br>
-
-                                    Spora hayatında yer açmak isteyenlerin seçimi olan Spor & Outdoor kategorisi, hem
-                                    kadın hem de erkeklerin farklı
-                                    branşlar için ihtiyaç duyacağı malzemeleri ve spor giyim ürünlerini bir arada
-                                    bulunduruyor. Tenis, yürüyüş, koşu veya
-                                    takım oyunları için gerek duyduğunuz tüm spor ekipmanları Hepsiburada'da sizleri
-                                    bekliyor. Elektrikli bisikletten olta
-                                    kamışına, ilgilendiğiniz spor dalında performansınızı artırmak için profesyonel
-                                    ürünlerden destek alabilirsiniz. Outdoor
-                                    mont ve outdoor ayakkabı tasarımlarını doğa sporları yaparken ya da yağışlı kış
-                                    günlerinde tercih edebilirsiniz. Kamp
-                                    için aradığınız çadır modelleri, koşu için almak istediğiniz spor ayakkabı
-                                    tasarımları, pilates seanslarınıza konfor
-                                    katan matlar tek reyonda sizlerle...
-
-                                    <br><br><strong>Bakımlı Olmak İçin Aradığınız Her Şey</strong><br><br>
-
-                                    Kadın ve erkeklerin kişisel bakım rutinini kolaylaştıracak binlerce ürün bir arada.
-                                    Cilt temizleyici kozmetik ürünlerden
-                                    sağlık araçlarına, hayatınıza güzellik katacak makyaj malzemelerinden parfüm ve
-                                    deodorantlara kadar banyo dolabınızın
-                                    tüm ihtiyaçlarını Hepsiburada ayrıcalıklarıyla satın alabilirsiniz. Hepsiburada,
-                                    cilt tipinize uygun alternatifler,
-                                    bütçenizi sarsmayan çeşitler, en kaliteli ve seçkin markalar ile sizin de güzellik
-                                    sırrınız olmaya hazırlanıyor. Calvin
-                                    Klein parfüm çeşitleri içinde aradığınız kokuyu bulabilirsiniz. Bulgari parfüm
-                                    çeşitlerini inceleyebilir veya ünlülerin
-                                    tercihi Chanel parfüm seçenekleri arasından seçim yaparak imzanız olacak parfüme
-                                    sahip olabilirsiniz.
-
-                                    <br><br><strong>Kim Demiş Ev Alışverişi Zor Diye?</strong><br><br>
-
-                                    Hepsiburada süpermarket, petshop ürünleri ile deterjandan mutfak ihtiyaçlarına
-                                    petshop malzemelerinden gıda alışverişi
-                                    ne kadar her şeyi sizlere sunuyor.Poşet taşıma, markete zaman ayırma, aradığınız
-                                    ürünü bulamama devri Hepsiburada ile
-                                    sona eriyor. Süpermarket siparişinizi oturduğunuz yerden verebilir, tüm
-                                    alışverişinizin kapınıza gelmesini
-                                    bekleyebilirsiniz.Hepsiburada, evcil dostlarınızı da düşünüyor. Onlar için özel
-                                    üretilen ürünler, oyuncaklar ve
-                                    kıyafetler de sitenin ürün gamında yer alıyor.Market alışverişini zahmet olmaktan
-                                    çıkaran Hepsiburada, size zaman
-                                    kazandırıyor.
-
-                                    <br><br><strong>Hobileriniz İçin İhtiyaçlarınız Tek Adreste</strong><br><br>
-
-                                    Kitap müzik film ve hobi kategorisinde yer alan ürünler, yılın en son çıkan
-                                    kitaplarını, mutlaka okunması gereken
-                                    kitaplarını, merakla beklenen müzik albümlerini, gişe rekoru kıran film ve dizilerin
-                                    DVD'lerini, farklı hobilere yönelik
-                                    kaliteli materyalleri meraklılalrına sunuyor. Hobileriniz için aradığınız her şeyi
-                                    bulunduran sitede seramik kaleminden
-                                    ahşap malzemelere, fırçalardan boyalara, klasik romanlardan hobi setlerine kadar tüm
-                                    ihtiyaçlarınız yer alıyor.
-
-                                    <br><br><strong>Hediyeniz Hazır mı?</strong><br><br>
-
-                                    Hepsiburada, yalnız kendiniz için değil sevdikleriniz için yapacağınız
-                                    alışverişlerde de ayrıcalıklı deneyim vadediyor.
-                                    Aşkınızı anlatacak özel Sevgililer Günü hediyesi çeşitleri içinde sevgili
-                                    tişörtleri, esprili aksesuarlar, çift
-                                    kupaları, oyuncaklar yer alıyor.Yeni yıla iyi dileklerle hatıra kalacak yılbaşı
-                                    hediyesi alternatifleri de
-                                    Hepsiburada'da. Kırmızının gözde renk olduğu yeni yıl hediyelerinde dönemsel
-                                    kampanyalar da düzenleniyor. Özel günlerde
-                                    hediyelerin en kaliteli ve avantajlısının Hepsiburada'da olduğunu bilenler Babalar
-                                    Günü ve Anneler Günü hediyesi ararken
-                                    de yanılmıyor.Annenizin gözlerini yaşartacak o özel hediye veya babanızın ömür boyu
-                                    saklayacağı Babalar Günü hediyesi
-                                    Hepsiburada'da karşınıza çıkıyor. Hediyeler için özel oluşturulan seçkiler de
-                                    kolaylıkla seçim yapmanıza yardım ediyor.
-                                    Parfümden saat çeşitlerine, güneş gözlüğü alternatiflerinden giyim ürünlerine kadar
-                                    binlerce hediye çeşidi arasından
-                                    seçim yapmak biraz zor olsa da özel filtreleme sayesinde en doğru seçeneklere
-                                    ulaşmanız kolaylaşıyor.
-
-                                    <br><br><strong>Dünyaca Ünlü Markaların Buluşma Noktası</strong><br><br>
-
-                                    Hepsiburada kuruluşundan bu yana ziyaretçilerini tüm dünyanın tercih ettiği büyük
-                                    markalarla buluşturuyor. Diesel
-                                    saatler en gösterişli modelleri ile sitede yerini alırken Nike spor ayakkabı
-                                    çeşitleri sezon modası ürünleri ile
-                                    beğeniye sunuluyor.Giyimden mobilyaya, aksesuardan market ürünlerine kadar binlerce
-                                    seçenek en iyi markaların garantisi
-                                    ile Hepsiburada çatısı altında yer alıyor. Teknoloji devi markaların bilgisayar
-                                    modelleri, akıllı telefonları veya kol
-                                    saati seçenekleri garanti belgeleri ile kullanıcılara ulaşıyor.Dilerseniz kendiniz
-                                    için kalite güvencesiyle Guess saat
-                                    veya kadın güneş gözlüğü alabilir veya Casio saatler, dünyaca ünlü markaların çanta
-                                    modelleri içinden sevdikleriniz için
-                                    en güzel hediyeyi seçebilirsiniz.
-                                    <br><br>
-                                    Hepsiburada, farklı kategorilerde zengin ürün çeşitliliği ve güvenilir tedarikçileri
-                                    ile konforlu e-ticaretin adresi
-                                    olmaya devam ediyor.Üstelik Hepsiburada, şimdi kendi teslimat ağıyla her zamankinden
-                                    daha hızlı! Kimi ürünlerde hizmete
-                                    başlayan Hepsiexpress, müşteri memnuniyeti için siparişlerin en kısa sürede teslim
-                                    edilmesini sağlıyor. Her geçen gün
-                                    getirdiği yenilikler, genişleyen ürün gamı ve üstün teslimat ağıyla daha iyi hizmet
-                                    için çalışan Hepsiburada, uzman
-                                    kadrosu ile fark yaratıyor.Profesyonel ve deneyimli müşteri destek ekibi, 7 gün 24
-                                    saat soru, sorun ve önerileriniz için
-                                    sizlere hizmet sunarken, çözüm odaklı işleyiş standartları alışverişte kalite
-                                    çıtasını yukarı taşıyor.Siz de aradığınız
-                                    ürünü Hepsiburada'da bulabilir, kolaylıkla sipariş vererek yeni nesil alışverişi en
-                                    doğru adreste deneyimleyebilirsiniz.
-                                    Türkiye'nin en büyük online alışveriş sitesi Hepsiburada hizmetinizde.
-                                    <a class="" data-bs-toggle="collapse" href="#toggle-info" role=""
-                                        aria-expanded="false" aria-controls="multiCollapseExample1">Devamını Gizle</a>
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Toggle end-->
-            <hr>
 
             <!-- Bottom menu start-->
             <div class="row g-2">
@@ -1030,7 +2829,7 @@
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl)
-        })
+        });
 
 
 
@@ -1042,7 +2841,25 @@
                 event.preventDefault()
                 tabTrigger.show()
             })
-        })
+        });
+
+        $('.carousel .carousel-item').each(function () {
+            var minPerSlide = 4;
+            var next = $(this).next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+
+            for (var i = 0; i < minPerSlide; i++) {
+                next = next.next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+
+                next.children(':first-child').clone().appendTo($(this));
+            }
+        });
 
     </script>
 

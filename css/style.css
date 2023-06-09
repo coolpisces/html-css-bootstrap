@@ -777,11 +777,6 @@ header {
     background: transparent;
 }
 
-.form-check input:checked {
-    background-color: #FF6000;
-    border-color: #FF6000;
-}
-
 .sol-area div i {
     top: 8px;
     left: 10px;
@@ -809,11 +804,56 @@ header {
     border: none;
 }
 
+
+
+.kupon {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-left: 12px
+}
+
+.sol-area p i {
+    font-size: .8em;
+}
+
+.form-check input:checked {
+    background-color: #FF6000;
+    border-color: #FF6000;
+}
+
 .form-check .form-check-label {
-    padding-left: 10px;
-    font-size: 0.75em;
+    padding-left: 2px;
+    font-size: 0.85em;
 }
 
 .form-check .form-check-input {
-    margin-left: 10px;
+    margin-left: -15px;
+}
+
+.form-check .form-check-label i {
+    color: rgb(254, 179, 75);
+}
+
+.bi-info-circle-fill {
+    font-size: .75em;
+}
+
+.radio-area a i {
+    font-size: 1.2rem;
+}
+
+.radio-area input[type=text]:focus {
+    border-color: #FF6000;
+}
+
+.sag-area {
+    border: 1px solid rgb(223, 222, 222);
+    border-radius: 8px;
+    padding: 10px 10px;
+    color: #575757;
+}
+
+/* Slider top */
+#slider-top .carousel-inner .carousel-item button {
+    margin: 5px;
 }
