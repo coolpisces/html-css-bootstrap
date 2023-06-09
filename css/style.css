@@ -725,8 +725,6 @@ header {
     border-radius: 8px;
     padding: 10px 10px;
     color: #575757;
-
-
 }
 
 .sol-area .btn-warning div {
@@ -791,4 +789,31 @@ header {
 
 .sol-area div input[type="text"] {
     padding-left: 33px;
+}
+
+.radio-area input[type="text"] {
+    padding-left: 10px !important;
+    font-size: 0.65em;
+    margin: 0 4px;
+}
+
+.radio-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-area a {
+    padding-left: 10px;
+    font-size: 0.75em;
+    background-color: #c2c0c0;
+    border: none;
+}
+
+.form-check .form-check-label {
+    padding-left: 10px;
+    font-size: 0.75em;
+}
+
+.form-check .form-check-input {
+    margin-left: 10px;
 }
