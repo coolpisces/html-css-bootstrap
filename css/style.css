@@ -222,13 +222,14 @@ header {
 
 
 .navbar-nav .nav-item {
-    border-left: 1px solid #f5f5f5;
-    border-width: 2px;
+
+    border-width: 1px;
     text-align: center;
 }
 
 .navbar-nav .nav-item:hover {
     background-color: white;
+    max-height: 50px;
 }
 
 .navbar-nav .nav-item a {
@@ -1085,4 +1086,342 @@ header {
     font-size: .75em;
     margin: 0 8px;
     font-weight: bold;
+}
+
+.variant {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    width: 25%;
+    border: 2px solid #ff6000;
+    margin-top: 20px;
+}
+
+.variant div {
+    text-align: justify;
+    margin: 0 5px;
+}
+
+.variant div span {
+    color: #c2c0c0
+}
+
+.variant img {
+    width: 20%;
+}
+
+.kazaen {
+    background-color: white;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.kazaen:hover {
+    border: 2px solid #ff6000;
+
+}
+
+.kazaen span {
+    font-size: .75em;
+}
+
+.kazaen .bi-info-circle-fill {
+    color: #959595
+}
+
+.kazaen div p strong {
+    color: #57B900;
+}
+
+.kazaen a.btn {
+    left: 220px;
+    top: 10px;
+    width: 25%;
+    padding: 2px;
+    color: #ff6000;
+    background-color: #f9eae0;
+    border: none;
+}
+
+.kazaen a.btn:hover {
+    left: 220px;
+    top: 10px;
+    width: 25%;
+    padding: 2px;
+    color: #ff6000;
+    background-color: #f7ccb1;
+}
+
+.miktar input[type=text] {
+    width: 60px;
+    border: none;
+
+}
+
+.miktar>.btn-group button {
+    background-color: #919191;
+    color: black;
+    font-size: 1.2em;
+}
+
+.miktar>button {
+    background-color: #ff6000;
+    border: none;
+    padding: 10px;
+}
+
+#sepet-ek:hover {
+    background-color: #cd5103 !important;
+}
+
+.eskici {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f0eaff;
+    border: 1px solid #cebaff;
+    height: 70px;
+    border-radius: 10px;
+    margin: 4px auto;
+}
+
+.eskici img {
+    width: 10%;
+}
+
+.eskici div {
+    font-size: .85em;
+    margin: 0 15px;
+}
+
+.eskici i {
+    margin-right: 15px;
+}
+
+.eskici button {
+    font-size: .75em;
+}
+
+.alisveris-kredisi {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e6f1f4;
+    border: 1px solid #ade4f3;
+    height: 70px;
+    border-radius: 10px;
+    margin: 2px auto;
+}
+
+.alisveris-kredisi img {
+    width: 10%;
+}
+
+.alisveris-kredisi div {
+    font-size: .85em;
+    margin: 0 15px;
+}
+
+.alisveris-kredisi i {
+    margin-right: 15px;
+}
+
+.alisveris-kredisi button {
+    font-size: .75em;
+}
+
+.kupon {
+    background-color: white;
+    width: 50%;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ff6000;
+}
+
+.kupon p {
+    font-size: .8em;
+    color: #959595;
+}
+
+.kupon span {
+    font-size: .8em;
+    color: #959595;
+}
+
+.kupon span a {
+    text-decoration: none;
+    color: #959595;
+}
+
+.kupon div p strong {
+    color: #57B900;
+}
+
+.kupon a {
+    left: 170px;
+    top: 10px;
+    width: 35%;
+    padding: 5px;
+    color: #2ae00a;
+    background-color: #f3faf0;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.kupon>a:hover {
+    left: 170px;
+    top: 10px;
+    width: 35%;
+    padding: 5px;
+    color: #2ae00a;
+    background-color: #f3faf0;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.kupon div span a:hover {
+    color: #FF6000;
+}
+
+.kuponlar {
+    background-color: white;
+    margin: 10px;
+    width: 97%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.circle-left {
+    position: absolute;
+    top: 60%;
+    left: 98.5%;
+    transform: translate(-50%, -50%);
+    height: 25px;
+    width: 12px;
+    border-radius: 150px 0px 0px 150px;
+    background-color: white;
+    border: 1px solid #FF6000;
+    border-right: none;
+}
+
+.circle-right {
+    position: absolute;
+    top: 60%;
+    left: 1.5%;
+    transform: translate(-50%, -50%);
+    height: 25px;
+    width: 12px;
+    border-radius: 0px 150px 150px 0px;
+    background-color: white;
+    border: 1px solid #FF6000;
+    border-left: none;
+}
+
+.kupon hr {
+    border: 1px dashed gray;
+}
+
+.like-area div {
+    margin: 0 10px;
+    font-size: .85em;
+}
+
+.like-area a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.like-area a:hover {
+    color: #49C7ED
+}
+
+.kupon>div>a.btn {
+    background-color: rgb(252, 244, 239);
+    color: #FF6000;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.teslimat a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.teslimat .next-icon {
+    font-size: 2em;
+}
+
+#sepet-ek {
+    background-color: #FF6000;
+    color: white;
+    border: none;
+}
+
+.shipping {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.shipping div small {
+    background-color: #35cf19;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.shipping div span {
+    font-size: .85em;
+    font-weight: bold;
+    color: rgb(79, 153, 255)
+}
+
+.shipping div p {
+    font-size: .85em;
+}
+
+.shipping div div button {
+    font-size: .85em;
+    margin: 0 10px;
+}
+
+.shipping :hover {
+    background-color: #edecec;
+}
+
+.shipping-area {
+    background-color: white;
+    padding: 10px;
+}
+
+/*tab menu*/
+.tab-menu-area {
+    border: 1px solid rgb(231, 230, 230);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#pills-tab {}
+
+.tab-menu-area .nav-link {
+    background-color: #919191;
+}
+
+
+
+
+
+
+/*Table Area*/
+table {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 1000px;
 }
