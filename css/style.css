@@ -996,3 +996,93 @@ header {
     background-color: rgb(247, 245, 245);
     border-radius: 10px;
 }
+
+.banner div div p {
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.banner div div p span {
+    background-color: rgb(94, 253, 94);
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.banner div a.btn {
+    border-radius: 20px;
+    width: 120px;
+}
+
+.carousel-indicators button {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.carousel-indicators .card img {
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.ozellik-baslik {
+    font-size: .8em;
+    text-justify: newspaper;
+}
+
+.ozellik-aciklama {
+    font-size: .8em;
+    text-justify: newspaper;
+}
+
+.sag-ozellik {
+    background-color: #eeeeee;
+}
+
+.ozellik-link {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+
+
+.ozellik-link p {
+    font-size: .8em;
+}
+
+.ozellik-link p strong:hover {
+    color: #ff6000
+}
+
+.premium {
+    font-size: .75em;
+    margin: 0 4px;
+}
+
+
+.ozel-alan {
+    display: flex;
+    font-size: .75em;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.ozel-alan a {
+    text-decoration: none;
+}
+
+.ozellik-link small {
+    color: white;
+    background-color: #52c95c;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.sag-ozellik .btn-outline-secondary {
+    height: fit-content;
+    font-size: .75em;
+    margin: 0 8px;
+    font-weight: bold;
+}
