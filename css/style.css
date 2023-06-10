@@ -991,3 +991,8 @@ header {
 .card {
     margin-bottom: 20px;
 }
+
+.banner {
+    background-color: rgb(247, 245, 245);
+    border-radius: 10px;
+}
