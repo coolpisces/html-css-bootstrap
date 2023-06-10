@@ -857,3 +857,125 @@ header {
 #slider-top .carousel-inner .carousel-item button {
     margin: 5px;
 }
+
+/* Carousel Area */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+.kayan-buton {
+    border-radius: 10px;
+    border: 1px solid rgb(242, 239, 239);
+
+}
+
+.carousel-item div button {
+    border-radius: 20px;
+    margin: 0 5px;
+    font-size: 0.75em;
+    width: 160px;
+    border-color: rgb(225, 223, 223);
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
+
+#recipeCarousel a .carousel-control-prev-icon {
+    background-color: #e6e8e7;
+    width: 20px;
+    margin-left: -100px;
+
+}
+
+#recipeCarousel a .carousel-control-next-icon {
+    background-color: #e6e8e7;
+    width: 20px;
+    margin-right: -100px;
+
+}
+
+.card i.bi-suit-heart {
+    left: 190px;
+    top: 10px;
+    background-color: rgb(232, 231, 231);
+
+    padding: 9px 9px 3px 9px;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: .70em;
+    font-weight: bold;
+    color: white;
+    background-color: #FF6000;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.card-text {
+    font-size: .72em;
+}
+
+.card-body p i.bi-star-fill {
+    font-size: .72em;
+    margin: -1px;
+}
+
+.card-body p span {
+    font-size: .72em;
+    margin: 0 3px;
+    color: rgb(186, 177, 177);
+}
+
+.price {
+    font-size: .9em;
+    font-weight: bold;
+    margin: 0 3px;
+    color: rgb(34, 32, 32);
+    padding-bottom: 15px;
+}
+
+.card-body a {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6000;
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+}
