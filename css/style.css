@@ -1419,9 +1419,77 @@ header {
 
 
 /*Table Area*/
-table {
-    border: 1px solid gray;
+.table-area {
+    border: 1px solid rgb(242, 240, 240);
     border-radius: 10px;
     margin: 20px auto;
-    width: 1000px;
+    width: 1200px;
+}
+
+.satir {
+    border: 1px solid rgb(242, 240, 240);
+    margin: 0px auto;
+
+}
+
+.satir :hover {
+    background-color: rgb(250, 249, 248);
+    overflow: hidden;
+}
+
+.table-area .bi {
+    color: #989696;
+}
+
+.table-aciklama>span {
+    font-size: .9em;
+
+}
+
+.table-aciklama>div>span {
+    background-color: rgb(255, 2, 2);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: .72em;
+    padding: 3px;
+}
+
+.table-aciklama>div>div>small {
+    color: #8d8a8a;
+}
+
+.table-aciklama>div>div>strong {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.progress-bar {
+    background-color: orange;
+}
+
+.yuzde span {
+    font-size: .72em;
+}
+
+.yuzde .bi-circle-fill {
+    color: #FF6000;
+    font-size: .5em;
+
+}
+
+.yuzde .bi-caret-up-fill {
+    color: #15c805;
+    font-size: .8em;
+
+}
+
+.yuzde .bi-caret-down-fill {
+    color: red;
+    font-size: .8em;
+}
+
+.table-link {
+    text-decoration: none;
+    color: rgb(37, 36, 36);
 }
