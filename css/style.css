@@ -1400,24 +1400,6 @@ header {
     padding: 10px;
 }
 
-/*tab menu*/
-.tab-menu-area {
-    border: 1px solid rgb(231, 230, 230);
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-
-
-.tab-menu-area .nav-link {
-    background-color: #919191;
-}
-
-
-
-
-
-
 /*Table Area*/
 .table-area {
     border: 1px solid rgb(242, 240, 240);
@@ -1492,4 +1474,99 @@ header {
 .table-link {
     text-decoration: none;
     color: rgb(37, 36, 36);
+}
+
+/*tab menu*/
+.tab-menu-area {
+    border: 1px solid rgb(231, 230, 230);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tab-menu-area .nav-link {
+    background-color: #919191;
+}
+
+.nav-link2 {
+    background-color: #989696;
+    color: white;
+    padding: 10px;
+    width: 182px;
+    border: none;
+    border-right: 1px solid white;
+    font-size: .9em;
+}
+
+button[data-bs-toggle="pill"]:focus-within {
+    background-color: white;
+    color: black;
+}
+
+#pills-urun-aciklama strong {
+    font-size: 1.2em;
+}
+
+.pills-table {
+    font-size: .85em;
+}
+
+.taksit {
+    font-size: .8em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: rgb(86, 85, 85);
+    overflow: hidden;
+}
+
+.taksit .banka {
+    background-color: #f2f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.vade {
+    border-top: 1px solid gray
+}
+
+.taksit .banka2 {
+    background-color: rgb(249, 249, 249);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#vade-gor {
+    color: #ff6000;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+#nasil-kullanirim .bi-1-circle-fill {
+    font-size: 2.4em;
+    color: #6c84fa;
+}
+
+#nasil-kullanirim .bi-2-circle-fill {
+    font-size: 2.4em;
+    color: #6c84fa;
+}
+
+#nasil-kullanirim .bi-3-circle-fill {
+    font-size: 2.4em;
+    color: #6c84fa;
+}
+
+#nasil-kullanirim .bi-check-circle-fill {
+    font-size: 2.4em;
+    color: #05cf16;
+
+}
+
+#kredi-onay {
+    background-color: #edf0fe !important;
+    color: #6c84fa;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: .85em;
 }
